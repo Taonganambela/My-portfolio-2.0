@@ -1,0 +1,25 @@
+/* .swiper-slide-next #card,
+.swiper-slide-prev #card {
+  margin-top: 50px;
+} */
+
+#card {
+  position: relative;
+
+  transition: top 0.3s ease-in-out;
+  top: 0px;
+}
+
+#reviews .swiper-slide-active #card {
+  top: -50px;
+}
+
+#reviews .swiper-wrapper {
+  height: 480px;
+  padding-top: 50px;
+}
+
+#reviews .swiper-pagination {
+  position: relative;
+  bottom: 80px !important;
+}
