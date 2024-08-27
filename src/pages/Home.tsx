@@ -28,7 +28,7 @@ const Home = () => {
             data-aos-duration="1000"
             className="xl:text-[28px] sm:text-[24px] text-[18px]"
           >
-            HELLO, I am a <b className="font-extrabold">Taonga Nambela</b>
+            HELLO, I am a <b className="font-semiBold">Taonga Nambela</b>
           </span>
           <span
             data-aos-once
@@ -36,7 +36,7 @@ const Home = () => {
             data-aos-duration="1000"
             data-aos-delay="100"
             data-aos-offset="-100"
-            className="font-extrabold xl:text-[55px] sm:text-[45px] text-[35px] text-primary"
+            className="font-semiBold xl:text-[55px] sm:text-[45px] text-[35px] text-primary"
           >
           {/* Full Stack  */}
           </span>
@@ -46,7 +46,7 @@ const Home = () => {
             data-aos-duration="1000"
             data-aos-delay="150"
             data-aos-offset="-100"
-            className="font-extrabold -mt-2 text-[35px] xl:text-[55px] sm:text-[45px] text-[#961A7A] tracking-[24px] sm:tracking-[31px] xl:tracking-[38px] ml-5 sm:ml-8 xl:ml-0"
+            className="font-semiBold -mt-2 text-[35px] xl:text-[55px] sm:text-[45px] text-[#961A7A] tracking-[24px] sm:tracking-[31px] xl:tracking-[38px] ml-5 sm:ml-8 xl:ml-0"
           >
               Full Stack Software Developer
           </span>

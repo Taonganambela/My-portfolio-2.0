@@ -33,7 +33,7 @@ function CustomCard({
             <img src={logo} />
           </div>
           <div>
-            <span className="font-extrabold text-primary">{title}</span>
+            <span className="font-semiBold text-primary">{title}</span>
             <br />
             <span className="font-light text-[#797278] ">{subheader}</span>
           </div>

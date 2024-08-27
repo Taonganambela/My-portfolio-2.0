@@ -35,17 +35,17 @@ const About = () => {
             data-aos="fade-up"
             data-aos-delay="50"
             data-aos-duration="1000"
-            className="font-extrabold  xl:text-[55px] sm:text-[45px] text-[35px] text-[#961A7A] text-center"
+            className="font-semiBold  xl:text-[55px] sm:text-[45px] text-[35px] text-[#961A7A] text-center"
           >
-            <span>ABDUALRAHMAN</span> <br />
+            <span>Taonga <br /> Nambela</span> <br />
             <span
               data-aos-once
               data-aos="fade-up"
               data-aos-delay="250"
               data-aos-duration="1000"
-              className="font-extrabold xl:text-[55px] sm:text-[45px] text-[35px] text-[#961A7A] tracking-[24px] sm:tracking-[31px] xl:tracking-[38px] ml-6 sm:ml-9"
+              className="font-semiBold xl:text-[55px] sm:text-[45px] text-[35px] text-[#961A7A] tracking-[24px] sm:tracking-[31px] xl:tracking-[38px] ml-6 sm:ml-9"
             >
-              RIHAWEI
+              {/* Nambela */}
             </span>
           </p>
         </div>
@@ -56,7 +56,7 @@ const About = () => {
           data-aos-duration="500"
           className="text-center text-[15px] sm:text-lg min-w-[240px]"
         >
-          <span className="font-extrabold">I am Abd al-rahman Rihawei</span>
+          <span className="font-semiBold">I am Taonga Nambela</span>
           <br />
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
           aperiam in aspernatur corporis hic culpa accusantium vitae, blanditiis

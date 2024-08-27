@@ -13,16 +13,16 @@ const Footer = () => {
         className="flex flex-col items-center justify-center gap-7"
       >
         <div className="flex flex-col items-center justify-center mt-3">
-          <span className="font-extrabold text-5xl text-[#DCDEEB]">
-            ABDUALRAHMAN
+          <span className="font-semiBold text-5xl text-[#DCDEEB]">
+            Taonga 
           </span>
-          <span className="font-extrabold ml-3   text-5xl text-[#DCDEEB] tracking-[16px]">
-            RIHAWEI
+          <span className="font-semiBold ml-3   text-5xl text-[#DCDEEB] tracking-[16px]">
+            Nambela
           </span>
-          {/* <span className="font-extrabold">ABDUALRAHMAN</span>
-            <span className="font-extrabold tracking-[12px]">RIHAWEI</span> */}
+          {/* <span className="font-semiBold">ABDUALRAHMAN</span>
+            <span className="font-semiBold tracking-[12px]">RIHAWEI</span> */}
           <span className="font-thin text-[#DCDEEB] tracking-[7px] text-[18px]">
-            Project Manager
+            Software Engineer
           </span>
         </div>
         <div className="flex relative items-center flex-wrap justify-center gap-x-24 gap-y-3 mx-32">
@@ -97,7 +97,7 @@ const Footer = () => {
           </IconButton>
         </div>
         <div className="mb-2 text-white">
-          <span>Copyrights by IT-TrendCO 2024 </span>
+          <span>Copyrights Ice Code 2024 </span>
         </div>
       </div>
     </>
