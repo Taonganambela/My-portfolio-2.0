@@ -117,7 +117,7 @@ const Projects = () => {
           >
             <Tab label="Software Solutions" />
             <Tab label="UI/UX" />
-            <Tab label="Graphic Design" />
+            {/* <Tab label="Graphic Design" /> */}
           </Tabs>
           <TabPanel
             data-aos="fade-up"
@@ -214,11 +214,20 @@ const Projects = () => {
               </Swiper>
             </div>
           </TabPanel>
+
+
+          
           <TabPanel value={value} index={1}>
-            <div className="h-[100vh]">UI/UX Content</div>
+            <div className="h-[100vh]">UI/UX Contents</div>
           </TabPanel>
+
+
+
+
+
+
           <TabPanel value={value} index={2}>
-            <div className="h-[100vh]">Graphic Design Content</div>
+            {/* <div className="h-[100vh]">Graphic Design Content</div> */}
           </TabPanel>
         </div>
       </div>

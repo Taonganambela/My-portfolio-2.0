@@ -56,16 +56,9 @@ const About = () => {
           data-aos-duration="500"
           className="text-center text-[15px] sm:text-lg min-w-[240px]"
         >
-          <span className="font-semiBold">I am Taonga Nambela</span>
+          {/* <span className="font-semiBold">I am Taonga Nambela</span> */}
           <br />
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
-          aperiam in aspernatur corporis hic culpa accusantium vitae, blanditiis
-          consectetur exercitationem eligendi eos dolore rerum impedit! Saepe
-          laudantium vero distinctio deserunt accusamus ullam illo consectetur
-          voluptas, sed nulla quas autem aspernatur velit architecto enim,
-          debitis nam error totam ab voluptatem consequatur nobis! Earum
-          possimus pariatur magni molestiae quibusdam quidem, consectetur Lorem,
-          ipsum dolor sit amet
+          I am a full stack software developer with knowledge in both front-end and back-end technologies. I have a strong foundation in languages such as JavaScript, java, CSS, and MYSQL, I am skilled in building and  web applications up to deployment. My experience spans across various frameworks and tools, allowing me to create robust, scalable solutions. Passionate about coding and continuous learning, I thrive in collaborative environments and am dedicated to delivering high-quality, user-centric software.
         </p>
       </div>
     </>

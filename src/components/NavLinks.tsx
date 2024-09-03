@@ -16,7 +16,7 @@ const NavLinks = ({
         className={`${mode === "footer" ? "text-[#DCDEEB]" : "text-black"} ${
           isMobileScreen &&
           "border-primary border-solid border-t-0 border-r-0 border-l-0 border-b-2 pb-5 w-full text-center "
-        } ${window.location.hash === "#" ? "font-bold underline" : ""}`}
+        } ${window.location.hash === "#" ? "font-bold text-primary underline" : ""}`}
         href="#"
       >
         Home

@@ -19,7 +19,7 @@ const Skills = () => {
           data-aos-once
           data-aos-delay="50"
           data-aos-duration="1000"
-          className="text-center my-2 text-primary text-[60px]"
+          className="text-center my-2 mb-10 text-primary text-[60px]"
         >
           My Skills
         </h1>

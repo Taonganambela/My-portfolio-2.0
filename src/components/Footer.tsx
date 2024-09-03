@@ -19,8 +19,7 @@ const Footer = () => {
           <span className="font-semiBold ml-3   text-5xl text-[#DCDEEB] tracking-[16px]">
             Nambela
           </span>
-          {/* <span className="font-semiBold">ABDUALRAHMAN</span>
-            <span className="font-semiBold tracking-[12px]">RIHAWEI</span> */}
+        
           <span className="font-thin text-[#DCDEEB] tracking-[7px] text-[18px]">
             Software Engineer
           </span>
