@@ -30,10 +30,10 @@ const Skills = () => {
             data-aos-duration="500"
             className="flex flex-col items-center text-center"
           >
-            <img src="/skills.svg" />
+            <img src="/creative-thinking-icon.svg" className="h-[100px]"/>
             <span className="font-bold">Problem Solving</span>
             <p className="w-[210px]">
-            Understand what it takes to solve problems effectively.            </p>
+            I Understand what it takes to solve problems effectively.            </p>
           </div>
           <div
             data-aos="flip-right"
@@ -42,11 +42,10 @@ const Skills = () => {
             data-aos-duration="1000"
             className="flex flex-col items-center text-center"
           >
-            <img src="/skills.svg" />
+            <img src="/teamwork-together-icon.svg" className="h-[100px]"/>
             <span className="font-bold">Teamwork skills</span>
             <p className="w-[210px]">
-              The ability to identify, assess, and mitigate potential threats.
-            </p>
+            I work well with others to achieve a common goal, whether it's completing a project, solving a problem, or delivering a service.            </p>
           </div>
           <div
             data-aos="flip-right"
@@ -55,11 +54,10 @@ const Skills = () => {
             data-aos-duration="1000"
             className="flex flex-col items-center text-center"
           >
-            <img src="/skills.svg" />
+            <img src="/time.svg" className="h-[100px]"/>
             <span className="font-bold">Time management skills</span>
             <p className="w-[210px]">
-              The ability to identify, assess, and mitigate potential threats.
-            </p>
+          I plan and exercise conscious control of time spent on specific activities.            </p>
           </div>
           <div
             data-aos="flip-right"
@@ -68,11 +66,10 @@ const Skills = () => {
             data-aos-duration="1000"
             className="flex flex-col items-center text-center"
           >
-            <img src="/skills.svg" />
+            <img src="/operations-icon.svg" className="h-[100px]"/>
             <span className="font-bold">Adaptability</span>
             <p className="w-[210px]">
-              The ability to identify, assess, and mitigate potential threats.
-            </p>
+            I'm open to change            </p>
           </div>
           <div
             data-aos="flip-right"
@@ -81,10 +78,10 @@ const Skills = () => {
             data-aos-duration="1000"
             className="flex flex-col items-center text-center"
           >
-            <img src="/skills.svg" />
+            <img src="/affiliate-marketing-icon.svg" className="h-[100px]"/>
             <span className="font-bold">Communication skills</span>
             <p className="w-[210px]">
-              The ability to identify, assess, and mitigate potential threats.
+            I have the ability to accurately convey a message to another person or group of people.      
             </p>
           </div>
           <div
@@ -94,10 +91,10 @@ const Skills = () => {
             data-aos-duration="1000"
             className="flex flex-col items-center text-center"
           >
-            <img src="/skills.svg" />
+            <img src="/innovative-brain-icon.svg" className="h-[100px]"/>
             <span className="font-bold">Critical thinking skills</span>
             <p className="w-[210px]">
-              The ability to identify, assess, and mitigate potential threats.
+            I have the ability to think clearly and rationally about what to do or what to believe.   
             </p>
           </div>
           <div
@@ -107,12 +104,12 @@ const Skills = () => {
             data-aos-duration="1000"
             className="flex flex-col items-center text-center"
           >
-            <img src="/skills.svg" />
+            <img src="/services-icon.svg" className="h-[100px]"/>
             <span className="font-bold">Interpersonal skills</span>
             <p className="w-[210px]">
-              The ability to identify, assess, and mitigate potential threats.
-            </p>
-          </div>
+            I have the ability to communicate or interact well with other people.
+            </p>          
+            </div>
           <div
             data-aos="flip-right"
             data-aos-once
@@ -120,11 +117,10 @@ const Skills = () => {
             data-aos-duration="1000"
             className="flex flex-col items-center text-center"
           >
-            <img src="/skills.svg" />
+            <img src="/speak-speech-man-icon.svg" className="h-[100px]" />
             <span className="font-bold">Presentation skills</span>
             <p className="w-[210px]">
-              The ability to identify, assess, and mitigate potential threats.
-            </p>
+            I have the ability to effectively convey information, ideas, or opinions to an audience through oral, visual, or written means.            </p>
           </div>
           <div
             data-aos="flip-right"
@@ -133,10 +129,10 @@ const Skills = () => {
             data-aos-duration="1000"
             className="flex flex-col items-center text-center"
           >
-            <img src="/skills.svg" />
+            <img src="/briefcase-line-icon.svg" className="h-[100px]" />
             <span className="font-bold">Work ethic</span>
             <p className="w-[210px]">
-              The ability to identify, assess, and mitigate potential threats.
+              I have a good approach towards work
             </p>
           </div>
           <div
@@ -146,11 +142,10 @@ const Skills = () => {
             data-aos-duration="1000"
             className="flex flex-col items-center text-center"
           >
-            <img src="/skills.svg" />
+            <img src="/learning-machine-ai-icon.svg" className="h-[100px]" />
             <span className="font-bold">Emotional intelligence</span>
             <p className="w-[210px]">
-              The ability to identify, assess, and mitigate potential threats.
-            </p>
+            I have ability to manage both your own emotions and understand the emotions of people around you.            </p>
           </div>
         </div>
       </div>

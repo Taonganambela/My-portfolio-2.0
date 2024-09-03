@@ -10,6 +10,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import CustomeSwiperArrow from "../components/CustomeSwiperArrow";
+import { Avatar } from "antd";
 
 const CustomerCard = () => {
   return (
@@ -20,17 +21,21 @@ const CustomerCard = () => {
           className="bg-[#F2E3EF] rounded-xl max-w-[100%] w-[265px] sm:w-[350px] h-fit flex flex-col justify-between items-center"
         >
           <div className="flex  justify-center items-center h-full">
-            <img src="/review.png" alt="" className="w-[100px] my-7" />
+            <img src="/review.svg" alt="" className="w-[100px] my-7 bg-[#f2e4ef] rounded-full" />
+
+
+            {/* <Avatar  className="w-[100px] h-[100px] p-4"  style={{ backgroundColor: '#fde3cf', color: '#f56a00' }}>U</Avatar> */}
+
+
           </div>
           <div className="flex relative flex-col items-center mb-3">
             <img className="absolute w-[90%]" src="/quoutes.svg" alt="bro" />
             <div className="flex  flex-col items-center mb-7">
-              <span className="font-bold text-lg text-[#961A7A]">Max</span>
-              <span className="text-sm opacity-80">Restaurant's owner</span>
+              <span className="font-bold text-lg text-[#961A7A]"></span>
+              <span className="text-sm opacity-80">Mr Jordan</span>
             </div>
             <div className="text-center mx-10 mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Resourceful and adaptable, Taonga thrives in dynamic environments and excels as a team player.
             </div>
           </div>
         </div>
@@ -38,6 +43,111 @@ const CustomerCard = () => {
     </>
   );
 };
+
+
+
+const CustomerCard1 = () => {
+  return (
+    <>
+      <div className="flex items-center justify-center">
+        <div
+          id="card"
+          className="bg-[#F2E3EF] rounded-xl max-w-[100%] w-[265px] sm:w-[350px] h-fit flex flex-col justify-between items-center"
+        >
+          <div className="flex  justify-center items-center h-full">
+            <img src="/review.svg" alt="" className="w-[100px] my-7 bg-[#f2e4ef] rounded-full" />
+
+
+            {/* <Avatar  className="w-[100px] h-[100px] p-4"  style={{ backgroundColor: '#fde3cf', color: '#f56a00' }}>U</Avatar> */}
+
+
+          </div>
+          <div className="flex relative flex-col items-center mb-3">
+            <img className="absolute w-[90%]" src="/quoutes.svg" alt="bro" />
+            <div className="flex  flex-col items-center mb-7">
+              <span className="font-bold text-lg text-[#961A7A]"></span>
+              <span className="text-sm opacity-80">Mrs Zulu</span>
+            </div>
+            <div className="text-center mx-10 mb-4">
+            A proactive and adaptable professional, Taonga excels in collaborative settings and tackles challenges head-on.            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+
+
+
+const CustomerCard3 = () => {
+  return (
+    <>
+      <div className="flex items-center justify-center">
+        <div
+          id="card"
+          className="bg-[#F2E3EF] rounded-xl max-w-[100%] w-[265px] sm:w-[350px] h-fit flex flex-col justify-between items-center"
+        >
+          <div className="flex  justify-center items-center h-full">
+            <img src="/review.svg" alt="" className="w-[100px] my-7 bg-[#f2e4ef] rounded-full" />
+
+
+            {/* <Avatar  className="w-[100px] h-[100px] p-4"  style={{ backgroundColor: '#fde3cf', color: '#f56a00' }}>U</Avatar> */}
+
+
+          </div>
+          <div className="flex relative flex-col items-center mb-3">
+            <img className="absolute w-[90%]" src="/quoutes.svg" alt="bro" />
+            <div className="flex  flex-col items-center mb-7">
+              <span className="font-bold text-lg text-[#961A7A]"></span>
+              <span className="text-sm opacity-80">Mr Patrick</span>
+            </div>
+            <div className="text-center mx-10 mb-4">
+            Dependable and innovative, Taonga brings both enthusiasm and expertise to team-based projects. </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+
+
+
+const CustomerCard4 = () => {
+  return (
+    <>
+      <div className="flex items-center justify-center">
+        <div
+          id="card"
+          className="bg-[#F2E3EF] rounded-xl max-w-[100%] w-[265px] sm:w-[350px] h-fit flex flex-col justify-between items-center"
+        >
+          <div className="flex  justify-center items-center h-full">
+            <img src="/review.svg" alt="" className="w-[100px] my-7 bg-[#f2e4ef] rounded-full" />
+
+
+            {/* <Avatar  className="w-[100px] h-[100px] p-4"  style={{ backgroundColor: '#fde3cf', color: '#f56a00' }}>U</Avatar> */}
+
+
+          </div>
+          <div className="flex relative flex-col items-center mb-3">
+            <img className="absolute w-[90%]" src="/quoutes.svg" alt="bro" />
+            <div className="flex  flex-col items-center mb-7">
+              <span className="font-bold text-lg text-[#961A7A]"></span>
+              <span className="text-sm opacity-80">Sister Chilambwe</span>
+            </div>
+            <div className="text-center mx-10 mb-4">
+            Taonga displays creative problem-solving skills in every project. </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+
+
+
 
 const Reviews = () => {
   useEffect(() => {
@@ -106,19 +216,19 @@ const Reviews = () => {
             }}
           >
             <SwiperSlide>
-              <CustomerCard />
+              <CustomerCard4 />
+            </SwiperSlide>
+            <SwiperSlide>
+              <CustomerCard1 />
+            </SwiperSlide>
+            <SwiperSlide>
+              <CustomerCard3 />
             </SwiperSlide>
             <SwiperSlide>
               <CustomerCard />
             </SwiperSlide>
             <SwiperSlide>
-              <CustomerCard />
-            </SwiperSlide>
-            <SwiperSlide>
-              <CustomerCard />
-            </SwiperSlide>
-            <SwiperSlide>
-              <CustomerCard />
+              <CustomerCard1 />
             </SwiperSlide>
           </Swiper>
         </div>

@@ -202,6 +202,7 @@ const Projects = () => {
                     subheader="Cooker System"
                   />
                 </SwiperSlide>
+
                 <SwiperSlide className="mb-10">
                   <CustomCard
                     logo="logo1.png"
