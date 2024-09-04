@@ -49,6 +49,7 @@ const NavLinks = ({
         Projects
       </a>
       <a
+      
         className={`${mode === "footer" ? "text-[#DCDEEB]" : "text-primary "}  ${
           isMobileScreen &&
           "border-primary border-solid border-t-0 border-r-0 border-l-0 border-b-2 pb-5 w-full text-center "
