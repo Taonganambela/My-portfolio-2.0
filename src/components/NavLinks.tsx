@@ -13,7 +13,7 @@ const NavLinks = ({
   return (
     <>
       <a
-        className={`${mode === "footer" ? "text-[#DCDEEB]" : "text-black"} ${
+        className={`${mode === "footer" ? "text-[#DCDEEB]" : "text-primary"} ${
           isMobileScreen &&
           "border-primary border-solid border-t-0 border-r-0 border-l-0 border-b-2 pb-5 w-full text-center "
         } ${window.location.hash === "#" ? "font-bold text-primary underline" : ""}`}
@@ -22,7 +22,7 @@ const NavLinks = ({
         Home
       </a>
       <a
-        className={`${mode === "footer" ? "text-[#DCDEEB]" : "text-black"}  ${
+        className={`${mode === "footer" ? "text-[#DCDEEB]" : "text-primary"}  ${
           isMobileScreen &&
           "border-primary border-solid border-t-0 border-r-0 border-l-0 border-b-2 pb-5 w-full text-center "
         }${window.location.hash === "#about" ? "font-bold underline" : ""}`}
@@ -31,7 +31,7 @@ const NavLinks = ({
         About
       </a>
       <a
-        className={`${mode === "footer" ? "text-[#DCDEEB]" : "text-black"}  ${
+        className={`${mode === "footer" ? "text-[#DCDEEB]" : "text-primary"}  ${
           isMobileScreen &&
           "border-primary border-solid border-t-0 border-r-0 border-l-0 border-b-2 pb-5 w-full text-center "
         } ${window.location.hash === "#skills" ? "font-bold underline" : ""}`}
@@ -40,7 +40,7 @@ const NavLinks = ({
         Skills
       </a>
       <a
-        className={`${mode === "footer" ? "text-[#DCDEEB]" : "text-black"}  ${
+        className={`${mode === "footer" ? "text-[#DCDEEB]" : "text-primary"}  ${
           isMobileScreen &&
           "border-primary border-solid border-t-0 border-r-0 border-l-0 border-b-2 pb-5 w-full text-center "
         }`}
@@ -49,7 +49,7 @@ const NavLinks = ({
         Projects
       </a>
       <a
-        className={`${mode === "footer" ? "text-[#DCDEEB]" : "text-black"}  ${
+        className={`${mode === "footer" ? "text-[#DCDEEB]" : "text-primary "}  ${
           isMobileScreen &&
           "border-primary border-solid border-t-0 border-r-0 border-l-0 border-b-2 pb-5 w-full text-center "
         } ${window.location.hash === "#clients" ? "font-bold underline" : ""}`}
@@ -58,7 +58,7 @@ const NavLinks = ({
         Clients
       </a>
       <a
-        className={`${mode === "footer" ? "text-[#DCDEEB]" : "text-black"}  ${
+        className={`${mode === "footer" ? "text-[#DCDEEB]" : "text-primary"}  ${
           isMobileScreen &&
           "border-primary border-solid border-t-0 border-r-0 border-l-0 border-b-2 pb-5 w-full text-center "
         } ${window.location.hash === "#reviews" ? "font-bold underline" : ""}`}
