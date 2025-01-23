@@ -92,13 +92,13 @@ const Projects = () => {
 
   return (
     <>
-      <div id="projects" className="my-36">
+      <div id="projects" className="my-36 mt-20">
         <h1
           data-aos="zoom-out-up"
           data-aos-once
           data-aos-delay="50"
           data-aos-duration="1000"
-          className="text-center mt-1 mb-5 text-[#961A7A] text-[60px]"
+          className="text-center mt-6 mb-20 text-[#961A7A] text-[60px]"
         >
           My Projects
         </h1>

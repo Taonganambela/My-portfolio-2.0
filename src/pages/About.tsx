@@ -45,7 +45,7 @@ const About = () => {
               data-aos-duration="1000"
               className="font-semiBold xl:text-[55px] sm:text-[45px] text-[35px] text-[#961A7A] tracking-[24px] sm:tracking-[31px] xl:tracking-[38px] ml-6 sm:ml-9"
             >
-              {/* Nambela */}
+              Nambela
             </span>
           </p>
         </div>
@@ -58,7 +58,12 @@ const About = () => {
         >
           {/* <span className="font-semiBold">I am Taonga Nambela</span> */}
           <br />
-          I am a full stack software developer with knowledge in both front-end and back-end technologies. I have a strong foundation in languages such as JavaScript, java, CSS, and MYSQL, I am skilled in building and  web applications up to deployment. My experience spans across various frameworks and tools, allowing me to create robust, scalable solutions. Passionate about coding and continuous learning, I thrive in collaborative environments and am dedicated to delivering high-quality, user-centric software.
+          I am a full stack software developer with knowledge in both front-end and back-end technologies.
+          I have a strong foundation in languages such as JavaScript, java, C language, and MYSQL, 
+          I am skilled in building and  web applications up to deployment. 
+          My experience spans across various frameworks and tools, allowing me to create robust, scalable solutions.
+          Passionate about coding and continuous learning, 
+          I thrive in collaborative environments and am dedicated to delivering high-quality, user-centric software.
         </p>
       </div>
     </>

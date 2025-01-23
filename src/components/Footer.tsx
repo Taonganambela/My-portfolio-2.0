@@ -2,6 +2,8 @@ import { IconButton } from "@mui/material";
 import NavLinks from "./NavLinks";
 
 const Footer = () => {
+  const currentYear = Date();
+  console.log('Year', currentYear)
   return (
     <>
       <div
